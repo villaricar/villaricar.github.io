@@ -1,0 +1,75 @@
+body{background-image: radial-gradient(white, grey, black);
+height: 100vh;
+}
+
+.title {
+  font-size: 5em;
+  font-family: 'Merriweather', serif;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #1f1f2e;
+}
+
+.breadcrumb {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-cropper {
+    width: 215px;
+    height: 215px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 70%;
+}
+
+.padding{
+padding-top: 100px;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+@media (min-width: 276px) {
+    .container {
+        padding-top: 30vh;
+        width: 90%;
+    }
+    .breadcrumb {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        padding-top: 38vh;
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-top: 40vh;
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        padding-top: 40vh;
+        width: 40%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        padding-top: 40vh;
+        width: 30%;
+    }
+}
